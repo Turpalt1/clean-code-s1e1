@@ -36,16 +36,16 @@ body {
   display: flex;
 }
 .incomplete-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li,
 h3 {
-  list-style:none;
+  list-style: none;
 }
 input,
 button{
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -138,16 +138,16 @@ button.delete img:hover {
 /* Edit Task */
 .incomplete-tasks li input[type=text],
 .completed-tasks li input[type=text] {
-  display:none
+  display: none
 }
 
 .incomplete-tasks li.edit-mode input[type=text],
 .completed-tasks li.edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .incomplete-tasks li.edit-mode label,
 .completed-tasks li.edit-mode label {
-  display:none;
+  display: none;
 }
